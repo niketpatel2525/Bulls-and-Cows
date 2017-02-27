@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ads:layout_width="-1" ads:layout_height="-1">
+    <ImageView ads:id="@id/imageviewMain" ads:background="#5a458d" ads:layout_width="-1" ads:layout_height="-1" ads:src="@drawable/front" />
+    <com.sxnyodot.uefqvmio207964.AdView ap:id="@id/myAdView" ap:layout_width="-2" ap:layout_height="-2" ap:test_mode="false" ap:banner_type="inappad" ap:animation="fade" ap:placementType="interstitial" ap:canShowMR="false" />
+    <Button ap:textSize="32sp" ap:textColor="#ffffff" ap:gravity="11" ap:layout_gravity="11" ap:id="@id/about" ap:background="@drawable/buttonshap" ap:layout_width="204dp" ap:layout_height="60dp" ap:layout_marginRight="55dp" ap:layout_marginBottom="83dp" ap:text="AboutUs" ap:layout_alignParentRight="true" ap:layout_alignParentBottom="true" />
+    <Button ap:textSize="32sp" ap:textColor="#ffffff" ap:gravity="11" ap:layout_gravity="11" ap:id="@id/help" ap:background="@drawable/buttonshap" ap:layout_width="204dp" ap:layout_height="60dp" ap:text="Help" ap:layout_alignLeft="@id/about" ap:layout_alignParentBottom="true" />
+    <Button ap:textSize="32sp" ap:textColor="#ffffff" ap:gravity="11" ap:layout_gravity="11" ap:id="@id/start" ap:background="@drawable/buttonshap" ap:layout_width="204dp" ap:layout_height="60dp" ap:layout_marginBottom="15dp" ap:text="Start" ap:layout_above="@id/about" ap:layout_alignLeft="@id/about" />
+</RelativeLayout>

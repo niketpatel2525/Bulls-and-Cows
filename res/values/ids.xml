@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="tvabout">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="linearLayout1">false</item>
+    <item type="id" name="fbutton">false</item>
+    <item type="id" name="sbutton">false</item>
+    <item type="id" name="tbutton">false</item>
+    <item type="id" name="fobutton">false</item>
+    <item type="id" name="result">false</item>
+    <item type="id" name="submit">false</item>
+    <item type="id" name="topText">false</item>
+    <item type="id" name="imageviewMain">false</item>
+    <item type="id" name="myAdView">false</item>
+    <item type="id" name="about">false</item>
+    <item type="id" name="help">false</item>
+    <item type="id" name="start">false</item>
+    <item type="id" name="tvhelp">false</item>
+    <item type="id" name="imageView2">false</item>
+    <item type="id" name="finalresult">false</item>
+    <item type="id" name="tryagain">false</item>
+    <item type="id" name="playagain">false</item>
+    <item type="id" name="action_settings">false</item>
+</resources>

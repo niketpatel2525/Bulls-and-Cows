@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView ads:id="@id/ScrollView01" ads:layout_width="-1" ads:layout_height="-1">
+    <RelativeLayout ads:paddingLeft="@dimen/activity_horizontal_margin" ads:paddingTop="@dimen/activity_vertical_margin" ads:paddingRight="@dimen/activity_horizontal_margin" ads:paddingBottom="@dimen/activity_vertical_margin" ads:layout_width="-1" ads:layout_height="-2">
+        <LinearLayout ads:gravity="11" ads:layout_gravity="11" ads:id="@id/linearLayout1" ads:layout_width="-2" ads:layout_height="-2" ads:layout_alignParentLeft="true" ads:layout_alignParentTop="true" ads:layout_alignParentRight="true">
+            <NumberPicker ads:scrollbarStyle="0" ads:id="@id/fbutton" ads:focusableInTouchMode="false" ads:layout_width="70dp" ads:layout_height="-2" />
+            <NumberPicker ads:scrollbarStyle="0" ads:id="@id/sbutton" ads:layout_width="70dp" ads:layout_height="-2" />
+            <NumberPicker ads:scrollbarStyle="0" ads:id="@id/tbutton" ads:layout_width="70dp" ads:layout_height="-2" />
+            <NumberPicker ads:scrollbarStyle="0" ads:id="@id/fobutton" ads:layout_width="70dp" ads:layout_height="-2" />
+        </LinearLayout>
+        <TextView ads:textAppearance="?unknown_attr_ref: 1010040" ads:gravity="11" ads:layout_gravity="11" ads:id="@id/result" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginTop="114dp" ads:text="Don't Select two or more same digit." ads:layout_below="@id/submit" />
+        <TextView ads:textAppearance="?unknown_attr_ref: 1010040" ads:gravity="11" ads:layout_gravity="11" ads:id="@id/topText" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginTop="39dp" ads:text="RESULT" ads:layout_below="@id/submit" ads:layout_alignRight="@id/submit" />
+        <Button ads:gravity="11" ads:layout_gravity="11" ads:id="@id/submit" ads:layout_width="-2" ads:layout_height="-2" ads:layout_marginTop="18dp" ads:text="Check" ads:layout_below="@id/linearLayout1" ads:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>

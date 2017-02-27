@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout ads:layout_width="-1" ads:layout_height="-1">
+    <ImageView ads:id="@id/imageView2" ads:background="#5a458d" ads:layout_width="-2" ads:layout_height="-2" ads:src="@drawable/wining" ads:layout_alignParentLeft="true" ads:layout_alignParentTop="true" ads:layout_alignParentRight="true" ads:layout_alignParentBottom="true" />
+    <com.sxnyodot.uefqvmio207964.AdView ap:id="@id/myAdView" ap:layout_width="-2" ap:layout_height="-2" ap:test_mode="false" ap:banner_type="inappad" ap:animation="fade" ap:placementType="interstitial" ap:canShowMR="false" />
+    <Button ap:gravity="11" ap:layout_gravity="11" ap:id="@id/playagain" ap:background="@drawable/playagain" ap:layout_width="-2" ap:layout_height="-2" ap:layout_marginBottom="179dp" ap:width="200dp" ap:layout_alignParentBottom="true" ap:layout_centerHorizontal="true" />
+</RelativeLayout>
